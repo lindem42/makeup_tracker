@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<!-- fonts -->
+<link href="https://fonts.googleapis.com/css?family=Poppins:bold" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Heebo&display=swap" rel="stylesheet">
+	
+<!-- css -->
+<link href="makeup_tracker.css" rel="stylesheet" type="text/css">
+
+<link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" rel="stylesheet"  type="text/css">
+	
+<title>makeup tracker</title>
+	
+</head>
+
+<body>
+
+    <div id="body-container">
+        <div id="menu-container">
+            <div id="menu-title" class="title">navigation</div>
+            <div id="menu">
+
+                <div class="sub-title" id="display-all" onclick = "displayAll()">Display All</div>
+                <div class="sub-title" id="color-filter">Color</div>
+                <div class="filter-cont" id="color-filters"></div>
+                <div class="sub-title" id="brand-filter">Brand</div>
+                <div class="filter-cont" id="brand-filters"></div>
+                <div class="sub-title" id="finish-filter">Finish</div>
+                <div class="filter-cont" id="finish-filters"></div>
+            </div>
+        </div>
+
+        <div id="gallery-container">
+            <div id="gallery-title" class="title">shadow gallery</div>
+            <div id="message"></div>
+            <div id="gallery"></div>
+        </div>
+    </div>
+	
+	<script type="text/javascript" src="makeup_tracker.js"></script>
+</body>
+</html>
