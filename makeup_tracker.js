@@ -41,7 +41,7 @@ shades = [
     new Shade("Lime Crime", "Venus XL", "Burnt Gold", "terracotta", "matte", "photos/lc-venus-xl/burnt-gold.jpg"),
     new Shade("Lime Crime", "Venus XL", "Flora", "coral", "matte", "photos/lc-venus-xl/flora.jpg"),
     new Shade("Lime Crime", "Venus XL", "Scallop", "peach", "matte", "photos/lc-venus-xl/scallop.jpg"),
-    new Shade("Lime Crime", "Venus XL", "Celestial", "burgundy", "sparkle matte", "photos/lc-venus-xl/celestial.jpg"),
+    new Shade("Lime Crime", "Venus XL", "Celestial", "mauve", "sparkle matte", "photos/lc-venus-xl/celestial.jpg"),
     new Shade("Lime Crime", "Venus XL", "Ethereal", "rose gold", "shimmer", "photos/lc-venus-xl/ethereal.jpg"),
     new Shade("Lime Crime", "Venus XL", "Triumph", "pink", "matte", "photos/lc-venus-xl/triumph.jpg"),
     new Shade("Lime Crime", "Venus XL", "Supreme", "mauve", "matte", "photos/lc-venus-xl/supreme.jpg"),
@@ -155,10 +155,6 @@ function displayShades(source){
     shadeBox.appendChild(shadeBoxImg);
     gallery.append(shadeBox);
 
-    shadeBox.classList.add("shade-box");
-    if (i % 4 == 0 || i == 0){
-      shadeBox.style.paddingLeft = "0%";
-    }
   }
 }
 

@@ -10,6 +10,11 @@ body {
 	font-family:"heebo";
 }
 
+body::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+}
+
 #body-container{
     width:auto;
     padding-left:10%;
@@ -49,24 +54,23 @@ body {
 }
 
 .title{
-    font-size:1.5vw;
-    font-weight:bold;
+    font-size:2vw;
+    font-family:poppins;
+    text-transform:lowercase;
     padding-bottom:2%;
 }
 
 #menu{
-    padding-top:7.5%;
     width:100%;
     display:flex;
     flex-direction:column;
 }
 
 .sub-title{
+    margin-top:2.5%;
+    text-transform:lowercase;
+    font-size:1.25vw;
     font-weight:bold;
-}
-
-#display-all{
-    padding-bottom:5%;
 }
 
 .filter-cont{
@@ -79,6 +83,7 @@ body {
 
 .filter{
     cursor:pointer;
+    font-size:1vw;
     padding-right:2.5%;
     padding-left:2.5%;
     margin-right:2.5%;
@@ -103,8 +108,10 @@ body {
     display:flex;
     flex-direction:column;
     width:20%;
-    padding-top:2.5%;
-    padding-left:2.5%;
+    padding-bottom:2.5%;
+    padding-right:2.5%;
+    transition: padding-top 1s ease;
+    animation: slide-up 0.4s ease;
 }
 
 .shade-box img{
@@ -113,4 +120,15 @@ body {
     max-height:400px;
     width: auto;
     height: auto;
+}
+
+@keyframes slide-up {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }

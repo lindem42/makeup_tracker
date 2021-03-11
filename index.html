@@ -4,7 +4,8 @@
 <meta charset="utf-8">
 <!-- fonts -->
 <link href="https://fonts.googleapis.com/css?family=Poppins:bold" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Heebo&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Heebo:wght@100;400;700&display=swap" rel="stylesheet">
 	
 <!-- css -->
 <link href="styles.css" rel="stylesheet" type="text/css">
@@ -22,12 +23,16 @@
             <div id="menu-title" class="title">navigation</div>
             <div id="menu">
 
-                <div class="sub-title" id="display-all" onclick = "displayAll()">Display All</div>
-                <div class="sub-title" id="color-filter">Color</div>
+                <div class="sub-title">Display Options</div>
+                <div class="filter-cont" id="display-filters">
+                        <div class="filter" id="display-all" onclick = "displayAll()">show all</div>
+                        <div class="filter" id="expand-btn" onclick = "displayAll()">expand</div>
+                </div>
+                <div class="sub-title">Color</div>
                 <div class="filter-cont" id="color-filters"></div>
-                <div class="sub-title" id="brand-filter">Brand</div>
+                <div class="sub-title">Brand</div>
                 <div class="filter-cont" id="brand-filters"></div>
-                <div class="sub-title" id="finish-filter">Finish</div>
+                <div class="sub-title">Finish</div>
                 <div class="filter-cont" id="finish-filters"></div>
             </div>
         </div>
