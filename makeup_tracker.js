@@ -36,17 +36,17 @@ shades = [
     new Shade("Lime Crime", "Venus XL", "Fresca", "taupe", "sparkle matte", "photos/lc-venus-xl/fresca.jpg"),
     new Shade("Lime Crime", "Venus XL", "Inspire", "pink", "shimmer", "photos/lc-venus-xl/inspire.jpg"),
     new Shade("Lime Crime", "Venus XL", "Idolized", "brown", "matte", "photos/lc-venus-xl/idolized.jpg"),
-    new Shade("Lime Crime", "Venus XL", "Aphrodite", "brown", "matte", "photos/lc-venus-xl/aphrodite.jpg"),
+    new Shade("Lime Crime", "Venus XL", "Aphrodite", "terracotta", "matte", "photos/lc-venus-xl/aphrodite.jpg"),
     new Shade("Lime Crime", "Venus XL", "Nu Classic", "bronze", "shimmer", "photos/lc-venus-xl/nu-classic.jpg"),
     new Shade("Lime Crime", "Venus XL", "Burnt Gold", "terracotta", "matte", "photos/lc-venus-xl/burnt-gold.jpg"),
     new Shade("Lime Crime", "Venus XL", "Flora", "coral", "matte", "photos/lc-venus-xl/flora.jpg"),
-    new Shade("Lime Crime", "Venus XL", "Scallop", "pink", "matte", "photos/lc-venus-xl/scallop.jpg"),
+    new Shade("Lime Crime", "Venus XL", "Scallop", "peach", "matte", "photos/lc-venus-xl/scallop.jpg"),
     new Shade("Lime Crime", "Venus XL", "Celestial", "burgundy", "sparkle matte", "photos/lc-venus-xl/celestial.jpg"),
     new Shade("Lime Crime", "Venus XL", "Ethereal", "rose gold", "shimmer", "photos/lc-venus-xl/ethereal.jpg"),
     new Shade("Lime Crime", "Venus XL", "Triumph", "pink", "matte", "photos/lc-venus-xl/triumph.jpg"),
     new Shade("Lime Crime", "Venus XL", "Supreme", "mauve", "matte", "photos/lc-venus-xl/supreme.jpg"),
     new Shade("Lime Crime", "Venus XL", "Blank Canvas", "beige", "matte", "photos/lc-venus-xl/blank-canvas.jpg"),
-    new Shade("Lime Crime", "Venus XL", "Boticelli", "wine", "matte", "photos/lc-venus-xl/boticelli.jpg"),
+    new Shade("Lime Crime", "Venus XL", "Boticelli", "burgundy", "matte", "photos/lc-venus-xl/boticelli.jpg"),
     new Shade("Lime Crime", "Venus XL", "Goddess", "pink", "matte", "photos/lc-venus-xl/goddess.jpg"),
 
     // Jeffree Star Jawbreaker
@@ -80,14 +80,29 @@ shades = [
     new Shade("Viseart Paris", "Neutral Mattes", "Beige", "beige", "matte", "photos/vs-neutral-mattes/beige.jpg"),
     new Shade("Viseart Paris", "Neutral Mattes", "Sable", "beige", "matte", "photos/vs-neutral-mattes/sable.jpg"),
     new Shade("Viseart Paris", "Neutral Mattes", "Ivoire", "white", "matte", "photos/vs-neutral-mattes/ivoire.jpg"),
-    new Shade("Viseart Paris", "Neutral Mattes", "Chocolat", "brown", "matte", "photos/vs-neutral-mattes/chocolat.jpg"),
+    new Shade("Viseart Paris", "Neutral Mattes", "Chocolat", "chocolate", "matte", "photos/vs-neutral-mattes/chocolat.jpg"),
     new Shade("Viseart Paris", "Neutral Mattes", "Brique", "orange", "matte", "photos/vs-neutral-mattes/brique.jpg"),
     new Shade("Viseart Paris", "Neutral Mattes", "Taupe", "brown", "matte", "photos/vs-neutral-mattes/taupe.jpg"),
     new Shade("Viseart Paris", "Neutral Mattes", "Cafe", "brown", "matte", "photos/vs-neutral-mattes/cafe.jpg"),
     new Shade("Viseart Paris", "Neutral Mattes", "Charbon", "black", "matte", "photos/vs-neutral-mattes/charbon.jpg"),
     new Shade("Viseart Paris", "Neutral Mattes", "Souris", "grey", "matte", "photos/vs-neutral-mattes/souris.jpg"),
     new Shade("Viseart Paris", "Neutral Mattes", "Cendre", "taupe", "matte", "photos/vs-neutral-mattes/cendre.jpg"),
-    new Shade("Viseart Paris", "Neutral Mattes", "Tabac", "brown", "matte", "photos/vs-neutral-mattes/tabac.jpg"),
+    new Shade("Viseart Paris", "Neutral Mattes", "Tabac", "taupe", "matte", "photos/vs-neutral-mattes/tabac.jpg"),
+
+    // Viseart Neutral Mattes 2: Milieu
+    new Shade("Viseart Paris", "Neutral Mattes 2: Milieu", "Chiffon", "peach", "matte", "photos/vs-neutral-mattes-milieu/chiffon.jpg"),
+    new Shade("Viseart Paris", "Neutral Mattes 2: Milieu", "Creme Brulee", "tan", "matte", "photos/vs-neutral-mattes-milieu/creme-brulee.jpg"),
+    new Shade("Viseart Paris", "Neutral Mattes 2: Milieu", "Roussillon", "terracotta", "matte", "photos/vs-neutral-mattes-milieu/roussillon.jpg"),
+    new Shade("Viseart Paris", "Neutral Mattes 2: Milieu", "Platane", "tan", "matte", "photos/vs-neutral-mattes-milieu/platane.jpg"),
+    new Shade("Viseart Paris", "Neutral Mattes 2: Milieu", "Latte", "brown", "matte", "photos/vs-neutral-mattes-milieu/latte.jpg"),
+    new Shade("Viseart Paris", "Neutral Mattes 2: Milieu", "Sorrel", "terracotta", "matte", "photos/vs-neutral-mattes-milieu/sorrel.jpg"),
+    new Shade("Viseart Paris", "Neutral Mattes 2: Milieu", "Groseille", "pink", "matte", "photos/vs-neutral-mattes-milieu/groseille.jpg"),
+    new Shade("Viseart Paris", "Neutral Mattes 2: Milieu", "Nue", "brown", "matte", "photos/vs-neutral-mattes-milieu/nue.jpg"),
+    new Shade("Viseart Paris", "Neutral Mattes 2: Milieu", "Cacao", "chocolate", "matte", "photos/vs-neutral-mattes-milieu/cacao.jpg"),
+    new Shade("Viseart Paris", "Neutral Mattes 2: Milieu", "Dahlia", "pink", "matte", "photos/vs-neutral-mattes-milieu/dahlia.jpg"),
+    new Shade("Viseart Paris", "Neutral Mattes 2: Milieu", "Baie", "burgundy", "matte", "photos/vs-neutral-mattes-milieu/baie.jpg"),
+    new Shade("Viseart Paris", "Neutral Mattes 2: Milieu", "Penombre", "navy", "matte", "photos/vs-neutral-mattes-milieu/penombre.jpg"),
+
 
 ];
 
