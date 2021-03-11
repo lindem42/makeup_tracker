@@ -49,6 +49,32 @@ shades = [
     new Shade("Lime Crime", "Venus XL", "Boticelli", "wine", "matte", "photos/lc-venus-xl/boticelli.jpg"),
     new Shade("Lime Crime", "Venus XL", "Goddess", "pink", "matte", "photos/lc-venus-xl/goddess.jpg"),
 
+    // Jeffree Star Jawbreaker
+    new Shade("Jeffree Star Cosmetics", "Jawbreaker", "Virgin", "white", "matte", "photos/js-jawbreaker/virgin.jpg"),
+    new Shade("Jeffree Star Cosmetics", "Jawbreaker", "Good Morning", "beige", "matte", "photos/js-jawbreaker/good-morning.jpg"),
+    new Shade("Jeffree Star Cosmetics", "Jawbreaker", "Bubble Gum", "pink", "matte", "photos/js-jawbreaker/bubble-gum.jpg"),
+    new Shade("Jeffree Star Cosmetics", "Jawbreaker", "Wow", "yellow", "matte", "photos/js-jawbreaker/wow.jpg"),
+    new Shade("Jeffree Star Cosmetics", "Jawbreaker", "Suck", "orange", "matte", "photos/js-jawbreaker/suck.jpg"),
+    new Shade("Jeffree Star Cosmetics", "Jawbreaker", "Licorice", "red", "matte", "photos/js-jawbreaker/licorice.jpg"),
+    new Shade("Jeffree Star Cosmetics", "Jawbreaker", "Cute", "mint", "matte", "photos/js-jawbreaker/cute.jpg"),
+    new Shade("Jeffree Star Cosmetics", "Jawbreaker", "Fuck", "orange", "matte", "photos/js-jawbreaker/fuck.jpg"),
+    new Shade("Jeffree Star Cosmetics", "Jawbreaker", "Gum Drop", "purple", "matte", "photos/js-jawbreaker/gum-drop.jpg"),
+    new Shade("Jeffree Star Cosmetics", "Jawbreaker", "Snack", "rose gold", "shimmer", "photos/js-jawbreaker/snack.jpg"),
+    new Shade("Jeffree Star Cosmetics", "Jawbreaker", "Brain Freeze", "blue", "matte", "photos/js-jawbreaker/brain-freeze.jpg"),
+    new Shade("Jeffree Star Cosmetics", "Jawbreaker", "Jawbreaker", "white", "metallic", "photos/js-jawbreaker/jawbreaker.jpg"),
+    new Shade("Jeffree Star Cosmetics", "Jawbreaker", "And What?", "red", "metallic", "photos/js-jawbreaker/and-what.jpg"),
+    new Shade("Jeffree Star Cosmetics", "Jawbreaker", "Orange Juice", "orange", "metallic", "photos/js-jawbreaker/orange-juice.jpg"),
+    new Shade("Jeffree Star Cosmetics", "Jawbreaker", "Sour", "green", "matte", "photos/js-jawbreaker/sour.jpg"),
+    new Shade("Jeffree Star Cosmetics", "Jawbreaker", "Soaked", "blue", "matte", "photos/js-jawbreaker/soaked.jpg"),
+    new Shade("Jeffree Star Cosmetics", "Jawbreaker", "Raspberry", "red", "matte", "photos/js-jawbreaker/raspberry.jpg"),
+    new Shade("Jeffree Star Cosmetics", "Jawbreaker", "Cotton Candy", "pink", "metallic", "photos/js-jawbreaker/cotton-candy.jpg"),
+    new Shade("Jeffree Star Cosmetics", "Jawbreaker", "Lemon Drop", "yellow", "metallic", "photos/js-jawbreaker/lemon-drop.jpg"),
+    new Shade("Jeffree Star Cosmetics", "Jawbreaker", "Bite Me", "purple", "metallic", "photos/js-jawbreaker/bite-me.jpg"),
+    new Shade("Jeffree Star Cosmetics", "Jawbreaker", "Cherry Wet", "red", "matte", "photos/js-jawbreaker/cherry-wet.jpg"),
+    new Shade("Jeffree Star Cosmetics", "Jawbreaker", "Tasty", "brown", "matte", "photos/js-jawbreaker/tasty.jpg"),
+    new Shade("Jeffree Star Cosmetics", "Jawbreaker", "Cone", "tan", "matte", "photos/js-jawbreaker/cone.jpg"),
+    new Shade("Jeffree Star Cosmetics", "Jawbreaker", "Delicious", "navy", "matte", "photos/js-jawbreaker/delicious.jpg"),
+
 ];
 
 let gallery = document.getElementById("gallery");
